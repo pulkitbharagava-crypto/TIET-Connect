@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TIET Connect - Login</title>
+    <link rel = "stylesheet" href = "style.css">
+</head>
+<body>
+    <h1>Welcome back to TIET Connect</h1>
+    <h2>Login</h2>
+    <form id = "loginForm">
+        <label>Email</label>
+        <br>
+        <input type = "email" id = "email" placeholder = "email">
+        <br><br>
+        <label>Password</label>
+        <br>
+        <input type = "password" id = "password" placeholder = "password">
+        <br><br>
+        <button type = "submit">Log In</button>
+        <p id = "message"></p>
+    </form>
+
+    <p>don't have a account <a href = "index.html">Sign In</a></p>
+
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <script src = "auth.js"></script>
+    
+</body>
+</html>

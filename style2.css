@@ -1,0 +1,26 @@
+h1{
+    color:#38BDF8;
+    text-align: center;
+    font-size:50px;
+}
+h2{
+    color:#F9FAFB;
+    text-align:center;
+    font-size: 40px;
+}
+body{
+    background-color: #111827;
+}
+form{
+    background-color:#1F2937;
+    color:#9CA3AF;
+    text-align:center;
+    font-size: 30px;
+    height: 350px;
+    width:400px;
+    margin-left:600px;
+}
+p{
+    text-align: center;
+    color:#F9FAFB;
+}

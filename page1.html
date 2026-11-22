@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Complete Your Profile</title>
+
+    <link rel="stylesheet" href="style1.css">
+</head>
+
+<body>
+
+    <h1>Tell us about yourself</h1>
+
+    <form id="profileForm">
+
+        <!-- Nickname -->
+
+        <label for="nickname">
+            What should we call you?
+        </label>
+
+        <br>
+
+        <input
+            type="text"
+            id="nickname"
+            placeholder="Enter your nickname"
+            required
+        >
+
+        <br><br>
+
+
+        <!-- Date of birth -->
+
+        <label for="dateOfBirth">
+            Your date of birth
+        </label>
+
+        <br>
+
+        <input
+            type="date"
+            id="dateOfBirth"
+            required
+        >
+
+        <br><br>
+
+
+        <!-- City -->
+
+        <label for="city">
+            Which city do you live in?
+        </label>
+
+        <br>
+
+        <input
+            type="text"
+            id="city"
+            placeholder="Enter your city"
+            required
+        >
+
+        <br><br>
+
+
+        <!-- Interests -->
+
+        <fieldset>
+
+            <legend>Your interests</legend>
+
+            <label>
+                <input
+                    type="checkbox"
+                    name="interests"
+                    value="sports"
+                >
+                Sports
+            </label>
+
+            <br>
+
+            <label>
+                <input
+                    type="checkbox"
+                    name="interests"
+                    value="reel-making"
+                >
+                Reel making
+            </label>
+
+            <br>
+
+            <label>
+                <input
+                    type="checkbox"
+                    name="interests"
+                    value="fashion"
+                >
+                Fashion
+            </label>
+
+            <br>
+
+            <label>
+                <input
+                    type="checkbox"
+                    name="interests"
+                    value="tech"
+                >
+                Technology
+            </label>
+
+            <br>
+
+            <label>
+                <input
+                    type="checkbox"
+                    name="interests"
+                    value="movies"
+                >
+                Movies
+            </label>
+
+            <br>
+
+            <label>
+                <input
+                    type="checkbox"
+                    name="interests"
+                    value="clubbing"
+                >
+                Clubbing
+            </label>
+
+            <br>
+
+            <label>
+                <input
+                    type="checkbox"
+                    name="interests"
+                    value="dancing"
+                >
+                Dancing
+            </label>
+
+            <br>
+
+            <label>
+                <input
+                    type="checkbox"
+                    name="interests"
+                    value="singing"
+                >
+                Singing
+            </label>
+
+            <br>
+
+            <label>
+                <input
+                    type="checkbox"
+                    name="interests"
+                    value="esports"
+                >
+                Esports
+            </label>
+
+            <br>
+
+            <label>
+                <input
+                    type="checkbox"
+                    name="interests"
+                    value="studies"
+                >
+                Studies
+            </label>
+
+            <br>
+
+            <label>
+                <input
+                    type="checkbox"
+                    name="interests"
+                    value="reading-books"
+                >
+                Reading books
+            </label>
+
+        </fieldset>
+
+        <br>
+
+
+        <!-- Region -->
+
+        <label for="region">
+            Your region
+        </label>
+
+        <br>
+
+        <select id="region" required>
+
+            <option value="" disabled selected>
+                Select your region
+            </option>
+
+            <option value="north-west">
+                North West
+            </option>
+
+            <option value="north-east">
+                North East
+            </option>
+
+            <option value="extreme-north">
+                Extreme North
+            </option>
+
+            <option value="south">
+                South
+            </option>
+
+        </select>
+
+        <br><br>
+
+
+        <!-- Description -->
+
+        <label for="description">
+            Describe yourself and the people you want to meet
+        </label>
+
+        <br>
+
+        <textarea
+            id="description"
+            rows="5"
+            cols="35"
+            placeholder="Tell us about yourself..."
+            required
+        ></textarea>
+
+        <br><br>
+
+
+        <!-- Submit -->
+
+        <button type="submit">
+            Save and find people
+        </button>
+
+        <p id="message"></p>
+
+    </form>
+
+
+    <!-- Load Supabase before your JavaScript -->
+
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+
+    <script src="config.js"></script>
+
+    <script src="page1.js"></script>
+
+</body>
+
+</html>
